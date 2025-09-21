@@ -1,0 +1,163 @@
+body {
+    background-color: #171616;
+    margin: 0;
+    padding: 0;
+    color: #f1f1f4;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+}
+
+header {
+    background-color: #030303;
+    padding: 70px 0 0 0;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;    
+    font-weight:100;
+    font-size: 2em;
+    letter-spacing: 40px;
+    text-transform: uppercase;
+    color: #f1f1f4;
+    margin: 0 0 0 0;
+}
+
+h2 {
+    color: #6e6c6c;
+    font-size: 1.5em;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    text-align: center; 
+    font-weight:300;
+    letter-spacing: 2px;
+    margin: 100px 0 20px 0;
+}
+p {
+    font-family: 'Roboto', sans-serif;
+    font-weight:300;
+    font-size: 0.9em;
+    margin: 30px auto 40px auto;
+    color: #f1f1f4;
+    width: 500px;
+    
+}
+
+p.descripcion, .fin {
+    font-family: 'Roboto', sans-serif;
+    font-weight:100;
+    font-size: 0.7em;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    color: #b0b0b0;
+}
+
+a {
+    color: #f1f1f4;
+    text-decoration: none;
+}
+
+/* Imágenes */
+
+img.foto {
+    width: 300px;
+    margin-top: -58px;
+}
+
+img.logo {
+    margin: 20px;
+}
+
+
+/* Listas */
+
+ul {
+    list-style-type: none;
+    margin: 60px 0 40px 0;
+    padding: 0;
+    
+}
+
+li {    
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    display: inline;
+    margin: 0 10px;
+    font-size: 0.8em;
+}
+
+
+i {
+    font-size: 3em;
+    margin: 10px 10px 0 10px;
+    color: #b0b0b0;
+}
+form {
+    width: 400px;
+    background-color: #171616;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+
+}
+fieldset {
+    border: none;
+    margin: 30px 0 0 0;
+}
+
+label{
+    display: block;
+    text-align: left;    
+    margin-bottom: 10px; 
+    font-size: 0.8em;
+    color: #6e6c6c;
+
+
+}
+
+legend, h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight:400;
+    font-size: 0.8em;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #f1f1f4;
+    margin: 20px 0 20px 0;
+}
+
+
+form input,
+form textarea {
+  display: block;    
+  margin-bottom: 30px;
+  text-align: left;  
+  width: 100%;    
+  max-width: 400px; 
+  padding: 5px;
+}
+.enviar legend{
+    display: none;
+}
+
+
+.enviar input{
+    display: inline;
+    text-align: center;
+    width: 70px;
+    float: right;
+    margin-top: -30px;
+}
+
+.proyectos {
+  display: flex;
+  justify-content: center; /* centra horizontalmente */
+  gap: 30px;               /* espacio entre proyectos */
+}
+
+.proyecto {
+  text-align: center;       /* centra el texto debajo de la imagen */
+  max-width: 300px;         /* ancho máximo de cada proyecto */
+}
+
+#proyectos img {
+    margin: 40px auto 0 auto;
+}

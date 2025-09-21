@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gustavo Paul - Portfolio</title>
+
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+
+    <script src="codigo.js"></script>
+
+          
+</head>
+
+<body>
+
+
+    <script>
+        console.log("Hola");
+    </script>
+
+    <!-- Cabecera -->
+    <header>
+        <h1>Gustavo Paul</h1>
+        <p class="descripcion">Diseñador - Programador</p>
+        <img src="img/gustavo-paul.png" alt="Foto de Gustavo Paul" class="foto">
+    </header>
+
+    <!-- Menú -->
+    <nav>
+        <ul>
+            <li><a href="#sobre-mi">Sobre mi</a></li>
+            <li><a href="#estudios">Estudios</a></li>
+            <li><a href="#lenguajes-de-programacion">Lenguajes</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#redes-sociales">Redes sociales</a></li>
+            <li><a href="#formulario-de-contacto">Contacto</a></li>
+
+        </ul>
+    </nav>
+
+    <main>
+
+        <!-- Sobre mí -->
+        <section id="sobre-mi">
+
+            <h2>Sobre mí</h2>
+
+            <p>Soy un profesional creativo con más de veinte años de experiencia en diseño y comunicación visual, apasionado por combinar estética y funcionalidad en cada proyecto. Mi curiosidad constante me llevó también al mundo de la programación, donde integro lógica, tecnología y diseño para dar forma a soluciones digitales prácticas y atractivas.</p>
+        </section>
+
+        <!-- Estudios -->
+        <section id="estudios">
+
+            <h2>Estudios</h2>
+
+            <img src="img/UBA.svg.png" alt="UBA" height="150" class="logo">
+            <img src="img/utn-2.svg" alt="UTN" height="150" class="logo">
+
+            <p>Cursé la carrera de Diseño Gráfico en la Universidad de Buenos Aires (UBA), donde orienté mi formación principalmente hacia el diseño editorial. A lo largo de más de dos décadas de experiencia profesional, desarrollé proyectos vinculados a la diagramación, la producción gráfica y la comunicación visual, especializándome en la creación de piezas editoriales que combinan claridad, estética y funcionalidad.</p>
+
+            <p>Actualmente curso la Tecnicatura en Programación en la Universidad Tecnológica Nacional (UTN), Regional Pacheco, con el objetivo de formalizar y ampliar los conocimientos en programación que había adquirido de manera autodidacta. Esta formación me permite afianzar bases sólidas en diversos lenguajes y entornos de desarrollo, integrando así mi perfil creativo con competencias técnicas orientadas al desarrollo de software y soluciones digitales.</p>
+
+        </section>
+
+        <!-- Lenguajes de progamación -->
+        <section id="lenguajes-de-programacion">
+
+            <h2>Lenguajes de programación</h2>
+            
+            <i class="devicon-cplusplus-plain"></i>
+            <i class="devicon-csharp-plain"></i>
+            <i class="devicon-html5-plain"></i>
+            <i class="devicon-css3-plain"></i>
+            <i class="devicon-javascript-plain"></i>        
+            <p>Durante mi formación en la Tecnicatura en Programación de la Universidad Tecnológica Nacional (UTN), he adquirido experiencia con distintos lenguajes de programación, entre ellos C++, C#, HTML, CSS y JavaScript. Estos lenguajes me permitieron desarrollar desde aplicaciones de consola y escritorio hasta proyectos web, fortaleciendo tanto mi lógica de programación como mis habilidades en desarrollo front-end y back-end.</p>
+          
+        </section>
+
+        <!-- Proyectos -->        
+        <section id="proyectos">
+
+            <h2>Proyectos</h2>
+            
+            <p>Estos son proyectos en los que he trabajado en la materia Programación III en el segundo cuatrimestre del año 2025.</p>
+            
+            <div>
+                
+                <a href="https://github.com/santiagocarletti/tp-winform-equipo-4a">
+                    <img src="img/gestor.png" alt="Proyecto 1" height="200" class="proyecto">
+                    <H3>Gestor de artículos</H3>
+                    <p>PAplicación para la gestión de artículos con funciones de alta, baja y modificación, organización por categorías y marcas, y sistema de búsquedas filtradas.</p>
+                </a>
+            </div>
+            <div>
+                <a href="https://github.com/gustavopaul/portfolio"> 
+                    <img src="img/portfolio.png" alt="Proyecto 2" height="200" class="proyecto">
+                    <H3>Portfolio</H3>
+                    <p>Sitio web personal diseñado como portfolio para presentar proyectos, habilidades y experiencia en diseño y programación.</p>
+                </a>
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- Pié de página -->
+    <footer>
+
+        <!-- Redes sociales -->
+         <section id="redes-sociales">
+
+             <h2>Redes sociales</h2>
+             
+             <a href="https://www.linkedin.com/in/gustavo-paul/">                
+                 <i class="devicon-linkedin-plain"></i>
+                </a>
+                
+                <a href="https://github.com/gustavopaul">                
+                    <i class="devicon-github-original"></i>          
+                </a>
+                <p>Te invito a conocer más sobre mi trabajo y trayectoria en mis perfiles de LinkedIn y GitHub.</p>
+                
+            </section>
+            
+            <!-- Formulario de contacto -->
+            <section id="formulario-de-contacto">
+                
+            <h2>Correo electrónico</h2>
+            <form>
+    
+                <fieldset>
+                    <legend>Datos de contacto</legend>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" name="nombre">
+                    <label for="apellido">Apellido:</label>
+                    <input type="text" name="apellido">
+                    <label for="correo">Correo:</label>
+                    <input type="email" name="correo">
+                </fieldset>
+    
+                <fieldset>
+                    <legend>Motivo de contacto</legend>
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea name="mendaje" rows="10"></textarea>
+                </fieldset>
+    
+                <fieldset class="enviar">                    
+                    <legend>Enviar</legend>
+                    <input type="submit" name="Enviar" value="Enviar">
+                </fieldset>
+    
+            </form>
+
+        </section>
+
+        <p class="fin">Gustavo Paul - Portfolio</p>
+
+    </footer>
+
+</body>
+
+</html>
+
+
+<!-- 
+    
+    Menú.
+    Presentación inicial con foto.
+    Información general.
+    Conocimientos.
+    Proyectos.
+    Redes.
+    Formulario de contacto.
+
+    -->
