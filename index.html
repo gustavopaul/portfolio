@@ -20,11 +20,6 @@
 
 <body>
 
-
-    <script>
-        console.log("Hola");
-    </script>
-
     <!-- Cabecera -->
     <header>
         <h1>Gustavo Paul</h1>
@@ -155,22 +150,22 @@
                 <fieldset>
                     <legend>Datos de contacto</legend>
                     <label for="nombre">Nombre:</label>
-                    <input type="text" name="nombre">
+                    <input type="text" name="nombre" id="nombre">
                     <label for="apellido">Apellido:</label>
-                    <input type="text" name="apellido">
+                    <input type="text" name="apellido" id="apellido">
                     <label for="correo">Correo:</label>
-                    <input type="email" name="correo">
+                    <input type="email" name="correo" id="correo">
                 </fieldset>
 
                 <fieldset>
                     <legend>Motivo de contacto</legend>
                     <label for="mensaje">Mensaje:</label>
-                    <textarea name="mendaje" rows="10"></textarea>
+                    <textarea name="mendaje" rows="10" id="mensaje"></textarea>
                 </fieldset>
 
                 <fieldset class="enviar">
                     <legend>Enviar</legend>
-                    <input type="submit" name="Enviar" value="Enviar">
+                    <input type="submit" name="Enviar" value="Enviar" onclick="mostrar()">
                 </fieldset>
 
             </form>
